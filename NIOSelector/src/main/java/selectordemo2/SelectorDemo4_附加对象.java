@@ -8,7 +8,7 @@ import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 
-public class SelectorDemo4_¸½¼Ó¶ÔÏó {
+public class SelectorDemo4_é™„åŠ å¯¹è±¡ {
 
 	public static void main(String[] args) throws IOException {
 		Selector selector = Selector.open();
