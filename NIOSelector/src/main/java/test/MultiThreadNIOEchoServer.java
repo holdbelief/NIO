@@ -17,7 +17,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class MultiThreadNIOEchoServer {
-	public static Map<Socket, Long> geym_time_start = new HashMap<>();
+	public static Map<Socket, Long> geym_time_start = new HashMap<Socket, Long>();
 	private Selector selector;
 	private ExecutorService tp = Executors.newCachedThreadPool();
 	
